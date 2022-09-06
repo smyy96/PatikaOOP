@@ -51,7 +51,37 @@ Kalıtım Türleri
     
 ```
 
+### Polymorphism (Çok Biçimlilik)
+```
+Polimorfizm, alt sınıfların ata sınıflardaki metotları geçersiz kılması(method overriding)
+sayesinde çok biçimli olarak davranmasına denir. Bu sayede alt sınıf ata sınıfından 
+gelen davranışı kendine göre şekillendirebilir.
 
+Metotlarda "Geçersiz Kılma" ise bir alt sınıfın içine doğrudan ya da dolaylı ata sınıflarından
+gelen bir(ya da daha fazla) yöntemin aynısının(aynı yöntem adı ve aynı parametre listesi) 
+kodlanmasına verilen addır.
+
+```
+
+### Abstraction (Soyutlama)
+```
+Nesne yönelimli programlamada Soyutlama (Abstraction) ilkesi, eğer bir sınıf için nesne
+üretmek mantıksız geliyorsa o sınıf soyutlanabilir. 
+Soyutlama kavramı sınıfın içindeki iç işleyişi dışarıdan izole etmek, yani gizlemektir.
+
+Soyutlama için Java'da iki yöntem mevcuttur:
+    • "interface" tanımlamak
+    • "abstract" sınıf tanımlamak
+    
+Soyut Sınıf Özellikleri:
+
+"abstract" anahtar kelimesi ile tanımlanmış olması gerekiyor.
+    • Soyut veya soyut olmayan fonksiyonlar tanımlanabilir.
+    • Soyut sınıflardan "new" anahtar kelimesi ile nesne oluşturulamaz.
+    • Kurucu metodu ve static fonksiyonlar tanımlanabilir.
+    • "final" kelimesi ile tanımlanmış fonksiyonları içerebilir. Bu final fonksiyonlar 
+      alt sınıflarda ezilemezler (override).
+```
 
 
 
